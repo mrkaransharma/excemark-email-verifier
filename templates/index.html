@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excemark Email Verifier</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <img src="https://lh4.googleusercontent.com/aGXSgXoRZpJZxGld9sH298GENSzbWcwk12tYk3hMB4QnrekQZpVK6TcvdrvmFs8NJL0Ne0qPj8HHUA7guMeswn8=w16383" alt="Excemark Logo" />
+    </header>
+    <main>
+        <h1>Email Verifier</h1>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".csv" required>
+            <button type="submit">Verify Emails</button>
+        </form>
+    </main>
+    <footer>
+        &copy; 2025 <a href="https://www.excemark.com" target="_blank">Excemark</a>. All rights reserved.
+    </footer>
+</body>
+</html>
